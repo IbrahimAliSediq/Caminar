@@ -1,0 +1,220 @@
+* {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:0;
+    margin:0
+}
+.container{
+    width:1170px;
+    margin:auto
+}
+.clearfix{clear:both}
+body
+{
+    background-image:url("../images/bg.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	transition:opacity 1.5s ease, visibility 1.5s
+}
+
+header h1
+{
+    text-align:center;
+    margin-top:80px;
+    font-size:65px;
+    color:#FFF
+}
+header p
+{
+    text-align:center;
+    color:#FFF;
+    color:#CEC8BD;
+    margin-bottom:50px;
+}
+header h1 a , header p a
+{
+    color:#FFF;
+    text-decoration:none
+}
+header img{margin-bottom:-5px}
+
+.info{
+    padding:50px;
+    background-color:#FFF;
+    width:1177px;
+    
+}
+.info h2{
+    text-align:center;
+    color:#1e1f23;
+    font-size: 1.75rem;  
+    font-family:"Comic Sans MS";
+    font-weight:700
+}
+.info hr{
+    width:10%;
+    margin:10px auto;
+    color:#CCC;
+}
+.info p{
+    padding-top:10px;
+    text-align:center;
+    color:#bbb;
+    word-spacing:1.4px;
+    letter-spacing:4px;
+    font-size:12px;
+    font-weight:300
+}
+.detail{
+    overflow:hidden;
+    background-color:#F5F5F4;
+    padding:100px 90px ;
+    width:1177px;
+}
+.detail p {
+    color:#888;
+    line-height:22px
+}
+.imgs_And_inf{
+    width:1177px;
+    background-color:#1E1F23;
+    overflow:hidden;
+}
+.imgs_And_inf .imgs{
+    background-color:#121315;
+    margin:90px;
+    overflow:hidden;
+
+}
+.imgs_And_inf .imgs h1{
+    text-align:center;
+    color:#FFF;
+    font-size: 1.75rem;  
+    font-family:"Comic Sans MS";
+    font-weight:700;
+    padding-top:25px
+
+}
+.imgs_And_inf .imgs hr{
+    width:10%;
+    margin:10px auto;
+    color:#999
+
+}
+.imgs_And_inf .imgs p{
+    padding-top:10px;
+    padding-bottom:30px;
+    text-align:center;
+    color:#555;
+    letter-spacing:.25rem;
+    font-size:12px;
+    font-weight:300;
+    
+}
+.imgs_And_inf .imgs > div{
+    width:50%;
+    float:left;
+    margin-bottom:-5px
+
+
+}
+.imgs_And_inf .imgs > div img{
+    width:100%;
+    float:left
+}
+
+.imgs_And_inf .pics_and_para{
+overflow:hidden
+    
+}
+.imgs_And_inf .pics_and_para > div{
+        width:50%;
+        float:left;
+        height:440px
+}
+.imgs_And_inf .pics_and_para >div img{
+    width:100%;
+
+}
+.imgs_And_inf .pics_and_para .divv_English{
+    background-color:#F5F5F5;
+    padding:150px 50px;
+}
+.imgs_And_inf .pics_and_para .divv_English h2{
+    padding-left:40px;
+    padding-bottom:20px;
+    color:#000;
+    font-size: 20px;  
+    font-family:"Comic Sans MS";
+    font-weight:700
+}
+.imgs_And_inf .pics_and_para .divv_English p{
+    padding-left:40px;
+    color:#777;
+    font-weight:300;
+    line-height:22px;
+
+}
+.imgs_And_inf .pics_and_para .divv_Arabic
+{
+    direction:rtl;
+    padding:150px 50px;
+
+
+}
+.imgs_And_inf .pics_and_para .divv_Arabic h2{
+    padding-right:40px;
+    padding-bottom:20px;
+    color:#FFF;
+    font-size: 20px;  
+    font-family:"Comic Sans MS";
+    font-weight:700
+        
+}
+.imgs_And_inf .pics_and_para .divv_Arabic p{
+    padding-right:40px;
+    color:#777;
+    font-weight:300;
+    line-height:22px
+    
+}
+footer{
+    overflow:hidden;
+    padding:20px 0;
+    text-align:center
+
+}
+footer ul{
+    list-style:none;
+    padding-left:0;
+    margin:30px 0 0 
+}
+footer ul li{
+    display:inline-block;
+    padding-left:5px;
+    cursor:pointer
+    
+}
+footer ul li i:hover{color:#FFF}
+
+
+footer p{
+    color:#CCC;
+    word-spacing:1.5px;
+    text-transform:capitalize;
+    font-family:Arial;
+    font-size:13px;
+    padding:30px 0
+    
+}
+footer p span a{
+        color:#CCC;
+        text-decoration:underline
+}
+footer p span a:hover{
+    color:#FFF;
+    text-decoration: none
+}
